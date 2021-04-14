@@ -2,6 +2,8 @@
 
 > **WARNING** This repo is "just hobbying around" and "work in progress". 
 
+![](plan.png)
+
 Interactive Parallel Coordinates for Datasette
 
 ## Installation
