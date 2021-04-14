@@ -1,9 +1,6 @@
 # datasette-parcoords
 
-[![PyPI](https://img.shields.io/pypi/v/datasette-parcoords.svg)](https://pypi.org/project/datasette-parcoords/)
-[![Changelog](https://img.shields.io/github/v/release/koaning/datasette-parcoords?include_prereleases&label=changelog)](https://github.com/koaning/datasette-parcoords/releases)
-[![Tests](https://github.com/koaning/datasette-parcoords/workflows/Test/badge.svg)](https://github.com/koaning/datasette-parcoords/actions?query=workflow%3ATest)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/koaning/datasette-parcoords/blob/main/LICENSE)
+> **WARNING** This repo is "just hobbying around" and "work in progress". 
 
 Interactive Parallel Coordinates for Datasette
 
