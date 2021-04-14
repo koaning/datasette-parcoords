@@ -12045,10 +12045,20 @@ window.onload = function(){
     visTool.appendChild(btn)
     document.getElementById("parcoords-btn").onclick = makechart;
 
+    function dataUrl(){
+        if(window.location.search.length == 0){
+            return window.location.href + '.csv'
+        }
+        search = window.location.search
+        url = window.location.href
+        return url.replace(search, "") + ".csv" + search
+    }
+
     var parcoords;
     function makechart(){
+        visTool.style.height = "350px";
         d3.select("#parcoords-btn").remove();
-        d3.csv('/calmcode/smoking.csv', function(data) {
+        d3.csv(dataUrl(), function(data) {
             var colors = d3.scale.category20b();
             // load csv file and create the chart
     

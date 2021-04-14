@@ -1,0 +1,14 @@
+.parcoords button {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  padding: .5em .8em;
+  line-height: 1;
+  border-radius: .25rem;
+  -webkit-appearance: button;
+  font-size: .7em;
+  padding-bottom: 6px;
+}
